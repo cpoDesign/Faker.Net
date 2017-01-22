@@ -47,37 +47,37 @@ namespace Faker
             }
         }
 
-		[Obsolete]
-		public static string name()
+	[Obsolete]
+	public static string name()
         {
 			return GetName();
         }
 		
-		[Obsolete]
+	[Obsolete]
         public static string Suffix()
         {
 			return GetSuffix(); 
         }
 		
-		[Obsolete]
+	[Obsolete]
         public static string CatchPhrase()
         {
 			return GetCatchPhrase();
         }
   		
-		[Obsolete]
-		public static string BS()
+	[Obsolete]
+	public static string BS()
         {
 			return GetBS();
         }
 		
-		[Obsolete]
+	[Obsolete]
         public static string Position()
         {
 			return GetPosition();
         }
 
-        static readonly string[] SUFFIXES = new[] { "Inc", "and Sons", "LLC", "Group" };
+        static readonly string[] SUFFIXES = new[] { "Inc", "and Sons", "LLC", "Group", "limited", "LTD", "PLC","Pty." };
 
         static readonly string[] CATCH_PRE = new[] { "Adaptive", "Advanced", "Ameliorated", "Assimilated",
       "Automated", "Balanced", "Business-focused", "Centralized", "Cloned",
