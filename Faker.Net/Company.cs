@@ -77,7 +77,7 @@ namespace Faker
 			return GetPosition();
         }
 
-        static readonly string[] SUFFIXES = new[] { "Inc", "and Sons", "LLC", "Group", "limited", "LTD", "PLC","Pty." };
+        static readonly string[] SUFFIXES = new[] { "Inc.", "and Sons", "LLC", "Group", "limited", "Ltd.", "PLC","Pty.","TLS","A.S.","AB","S.A.","SA","Lda","ASA","AS","NV","BV","S.p.A","SAS","GmbH","AG","OE","SOGEPA","SARL","GIE","Oy" };
 
         static readonly string[] CATCH_PRE = new[] { "Adaptive", "Advanced", "Ameliorated", "Assimilated",
       "Automated", "Balanced", "Business-focused", "Centralized", "Cloned",
